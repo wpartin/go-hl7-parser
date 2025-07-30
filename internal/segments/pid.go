@@ -23,7 +23,7 @@ type PID struct {
 	DriverLicenseNumber  string
 }
 
-func (p *PID) NewPID() *PID {
+func NewPID() *PID {
 	return &PID{}
 }
 

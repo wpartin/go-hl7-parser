@@ -17,7 +17,7 @@ type MSH struct {
 	ContinuationPointer  string
 }
 
-func (m *MSH) NewMSH() *MSH {
+func NewMSH() *MSH {
 	return &MSH{}
 }
 

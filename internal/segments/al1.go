@@ -9,7 +9,7 @@ type AL1 struct {
 	IdentificationDate  string
 }
 
-func (a *AL1) NewAL1() *AL1 {
+func NewAL1() *AL1 {
 	return &AL1{}
 }
 

@@ -50,7 +50,7 @@ type PV1 struct {
 	TotalPayments           string
 }
 
-func (p *PV1) NewPV1() *PV1 {
+func NewPV1() *PV1 {
 	return &PV1{}
 }
 
