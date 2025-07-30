@@ -1,0 +1,48 @@
+package segments
+
+type IN1 struct {
+	SetID string
+	PlanId string
+	CompanyId string
+	CompanyName string
+	CompanyAddress string
+	InsuranceCompanyContactPerson string
+	InsuranceCompanyPhoneNumber string
+	GroupNumber string
+	GroupName string
+	InsuredGroupEmpID string
+	InsuredGroupEmpName string
+	PlanEffectiveDate string
+	PlanExpirationDate string
+	AuthorizationInformation string
+	PlanType string
+	NameOfInsured string
+	InsuredRelationshipToPatient string
+	InsuredDateOfBirth string
+	InsuredAddress string
+	AssignmentOfBenefits string
+	CoordinationOfBenefits string
+	CoordinationOfBenefitsPriority string
+	NoticeOfAdmissionCode string
+	NoticeOfAdmissionDate string
+	RptOfEligibilityCode string
+	RptOfElegibilityDate string
+	ReleaseInformationCode string
+	PreAdmitCert string
+	VerificationDate string
+	VerificationBy string
+	TypeOfAgreementCode string
+	BillingStatus string
+	LifetimeReserveDays string
+	DelayBeforeLRDay string
+	ComopanyPlanCode string
+	PolicyNumber string
+	PolicyDeductible string
+	PolicyLimitAmount string
+	PolicyLimitDays string
+	RoomRateSemiPrivate string
+	RoomRatePrivate string
+	InsuredEmploymentStatus string
+	InsuredSex string
+	InsuredEmployerAddress string
+}

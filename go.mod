@@ -1,0 +1,1 @@
+module "github.org/wpartin/go/hl7-parser"
